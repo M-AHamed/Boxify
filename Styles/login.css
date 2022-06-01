@@ -1,0 +1,277 @@
+body {
+    background: url(loginBgv2.jpg) rgb(149, 149, 163);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.navbar1 {
+    background-color: #d0d0d0;
+    margin-top: -30px;
+}
+
+#navBar_unorderdList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#navBar_listLitem {
+    float: right;
+}
+
+#navBar_listLogo {
+    float: left;
+}
+
+
+#navBar_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 14px;
+
+}
+
+#navBar_link_current {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    text-align: center;
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 40px 14px;
+}
+
+
+.navBar_text_BoxifyLogo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 500 px;
+    padding-top: 5px;
+    color: #f9f9f9;
+}
+
+
+.footer-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 66.6px;
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    overflow: visible;
+    background-color: #333333;
+    padding-top: 10px;
+}
+
+.footer_unorderedList {
+    list-style-type: none;
+}
+
+#footer-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+
+#footer_listItem {
+    float: left;
+    margin-left: 25px;
+}
+
+.footer-text {
+    position: absolute;
+    width: 377px;
+    height: 16px;
+    right: 0px;
+    top: 0px;
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+#footer-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+
+
+#box_login {
+    align-self: center;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #dbd6d6;
+    border-radius: 50px;
+}
+
+.container{
+    width:100%;
+    top: 50px;
+    height: calc(100vh - 66.6px);
+    background-image: url(..//Images/loginBg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh
+}
+
+#textMessage_login {
+    width: 100%;
+    height: 80px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+#textInput_text_username {
+    width: 100px;
+    height: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#textInput_top {
+    box-sizing: border-box;
+    width: 494px;
+    height: 40px;
+    left: 508px;
+    top: 460px;
+    background: #fcfcfc;
+    border: 1px solid #000000;
+    border-radius: 18px;
+}
+
+#textInput_text_password {
+    width: 100px;
+    height: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#textInput_bottom {
+    box-sizing: border-box;
+    width: 494px;
+    height: 40px;
+    left: 508px;
+    top: 600px;
+    background: #fcfcfc;
+    border: 1px solid #000000;
+    border-radius: 18px;
+}
+
+#button_login {
+
+    width: 500px;
+    height: 50px;
+    background: #333333;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 44px;
+    color: #FFFFFF;
+
+}
+
+#textMessage_1 {
+    margin-top: auto;
+    width: 100%;
+    left: 658px;
+    top: 658px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#textLink_signUp {
+    position: absolute;
+    margin: 0;
+    top: 95%;
+    left: 38%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 182px;
+    height: 22px;
+    background: #333333;
+
+    border-bottom: 5px rgb(0, 0, 0) solid;
+    font-family: 'verdana';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F4f4f4;
+}
+
+#text_BoxifyLogo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1px;
+    padding-right: 500 px;
+    padding-top: 5px;
+}
