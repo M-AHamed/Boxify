@@ -1,8 +1,8 @@
 <?php
 $dbHost = "localhost";
-$dbUser = "root";
-$dbPass = "";
-$dbName = "boxify";
+$dbUser = "abc";
+$dbPass = "abc";
+$dbName = "group7";
 $connectionKey=mysqli_connect($dbHost,$dbUser,$dbPass,$dbName);
 if(!$con = mysqli_connect($dbHost,$dbUser,$dbPass,$dbName))
 {

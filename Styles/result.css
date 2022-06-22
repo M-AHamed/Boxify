@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+}
+
+#h-content {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 30px;
+}
+h1 {
+  color: #333333;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  position: relative;
+}
+h3 {
+  color: #333333;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.08em;
+  animation: SlideRight 800ms cubic-bezier(0.22,0.32,0,1.54) 400ms ;
+}
+
+.hidden{
+  display: none;
+}
+
+ .container{
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        margin-left: 50%;
+        top: -550px;
+    }
+    .box{
+        width: 5%;          
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .stack-top{
+        z-index: 9;
+    }
+
+
+.btn{
+    background: #fff;
+    border:1px solid #aaa;
+    border-radius:10px;
+    font-size:1em;
+    padding:10px 30px;
+    text-transform:uppercase;
+}
+.btn1{
+    background: #fff;
+    border:1px solid #aaa;
+    border-radius:10px;
+    font-size:1em;
+    padding:10px 30px;
+    text-transform:uppercase;
+}
+@keyframes SlideRight{
+	from{
+		opacity:0;
+		transform: translateX(0px);
+	}
+	to{
+		opacity:1;
+		transform:translateX(-100px);
+	}
+}

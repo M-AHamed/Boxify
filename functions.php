@@ -7,7 +7,7 @@ function check_login($con)
       // checking if the user is in the db
       // id var used
       $id = $_SESSION['user_id'];
-      $query = "select * from users where user_id = '$id' limit 1";
+      $query = "select * from users1 where user_id = '$id' limit 1";
       // read from the database
 
       $result = mysqli_query($con,$query);
@@ -22,7 +22,7 @@ function check_login($con)
   die;
 }
 
-// function to generate a random number
+// function to generate a random id
 function random_num($length)
 {
 
@@ -30,10 +30,10 @@ function random_num($length)
     if($length < 5){
         $length = 5;
     }
-    $len = rand(4,$length); // assing a random variable between 4 and length
+    $len = rand(4,$length); //  random variable between 4 and length
 
     for($i=0; $i<$len;$i++){
-        #code...
+        
         $text .= rand(0,9);
 
     }
